@@ -3,6 +3,32 @@
 		background-position: center;
 		background-size: cover;}
 
+	.center-container {
+        text-align: right;
+    }
+	
+    /* Style for the home button */
+    .home-button {
+        display: inline-block;
+        background-color: rgba(113, 63, 2, 0.8);
+        color: white;
+        padding: 5px 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        border: solid;
+        cursor: pointer;
+		text-decoration: none;
+        transition: background-color 0.3s ease;
+        border: inset rgba(255, 234, 104, 1);
+    }
+    
+    .home-button:hover {
+        background-color: rgba(255, 234, 104, 1); /* Darker shade of the primary color on hover */
+		color: black;
+		border: inset rgba(113, 63, 2, 1);
+    }
+
 	* {box-sizing: border-box;} /* Create three equal columns that floats next to each other */
 	.column1 {
   		float: left;
@@ -65,30 +91,108 @@
 	.img-spain {width: 150px;
 		height: 100px;
 		border-style: solid;
-		position: relative;
-		left: 230px;}
+		position: absolute;
+		left: 13%;
+	}
+		
 
 	.img-america {width: 150px;
 		height: 100px;
 		border-style: solid;
-		position: relative;
-		left: 230px;}
+		position: absolute;
+		left: 46%;
+	}
 
 	.img-japan {width: 150px;
 		height: 100px;
 		border-style: solid;
-		position: relative;
-		left: 230px;}
+		position: absolute;
+		right: 13%;
+	}
 
-	.button {background-color: bisque;
-  		border: none;
- 		color: black;
-		padding: 15px 123px;
-		text-align: center;
-		font-family: Times New Roman
-		font-size: 25px;
-		text-decoration: none;
+	.button {
+		background-color: #c70a1e;
+		border-radius: 5px;
+		color: white;
+		cursor: pointer;
 		display: inline-block;
 		font-size: 16px;
-		margin: 4px 2px;
+		width: 100%;
+		height: auto;
+		padding: 10px;
+		text-align: center;
+		transition: transform 0.3s ease;
+		font-weight: bold;
+		text-decoration: none;
+	}
+		
+	.button-container {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	.button:hover {
+		background-color: #fec401;
+		transform: scale(0.85);
+		color: #c70a1e;
+	}
+
+	.button2 {
+		background-color: #3c3b6e;
+		border-radius: 5px;
+		color: white;
 		cursor: pointer;
+		display: inline-block;
+		font-size: 16px;
+		width: 100%;
+		height: auto;
+		padding: 10px;
+		text-align: center;
+		transition: transform 0.3s ease;
+		font-weight: bold;
+		text-decoration: none;
+	}
+		
+	.button2-container {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	.button2:hover {
+		background-color: #b22234;
+		transform: scale(0.85);
+		color: white;
+	}
+
+	.button3 {
+		background-color: #bc002d;
+		border-radius: 5px;
+		color: white;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 16px;
+		width: 100%;
+		height: auto;
+		padding: 10px;
+		text-align: center;
+		transition: transform 0.3s ease;
+		font-weight: bold;
+		text-decoration: none;
+	}
+		
+	.button3-container {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	.button3:hover {
+		background-color: white;
+		transform: scale(0.85);
+		color: #bc002d;
+	}
